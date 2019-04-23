@@ -8,5 +8,5 @@ You're going to build a bookmark manager. A bookmark manager is a website to mai
 User stories
 
 As a user,
-n/So that I can see a list of commonly used webpages,
-n/I’d like to store a list of bookmarks.
+So that I can see a list of commonly used webpages,
+I’d like to store a list of bookmarks.
