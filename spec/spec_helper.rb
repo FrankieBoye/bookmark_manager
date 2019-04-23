@@ -9,6 +9,11 @@ require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
 
+require 'simplecov'
+require 'simplecov-console'
+SimpleCov.formatter = SimpleCov::Formatter::Console
+SimpleCov.start
+
 # Tell Capybara to talk to BookmarkManager
 Capybara.app = BookmarkManager
 
